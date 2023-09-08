@@ -13,14 +13,14 @@ const HeaderNavbar = () => {
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="m-auto text-center">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="about">About Us</Nav.Link>
             <Nav.Link href="services">Services</Nav.Link>
             <Nav.Link href="portfolio">Portfolio</Nav.Link>
             <Nav.Link href="career">Career</Nav.Link>
             <Nav.Link href="blog">Blog</Nav.Link>
-            <Nav.Link href="contact">Contact Us</Nav.Link>
+            <Nav.Link href="contact">Contact Us</Nav.Link> 
             
           </Nav>
           <Nav>
