@@ -1,22 +1,15 @@
 import React from 'react'
-import { Container, Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <div>
-      <Navbar bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src="./Image/client4.png"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <Link class="navbar-brand">Navbar</Link>
+          
+        </div>
+      </nav>
     </div>
   )
 }
