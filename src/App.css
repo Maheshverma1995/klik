@@ -1,11 +1,19 @@
-.Services-li
-{
-    background-color: #fdf0eb;
-    list-style: none;
-    
+.Our-services-span {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 50px;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: transform 0.3s; 
 }
-.Services-li p{
-    padding: 10px;
-    font-weight: bold;
-    font-size: 14px;
+
+.Our-services-span:hover {
+    transform: translateY(-10px);
+}
+
+.Our-services-span p {
+    padding: 5px;
 }
