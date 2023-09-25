@@ -19,7 +19,7 @@ const HeaderNavbar = () => {
               <li class="nav-item">
                 <Link class="nav-link fs-5" to="about">About Us</Link>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id='service-link'>
                 <Link class="nav-link fs-5" to="services">Services</Link>
               </li>
               <li class="nav-item">

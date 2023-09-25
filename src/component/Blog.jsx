@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
@@ -17,9 +18,9 @@ const Blog = () => {
 <div className="card-body">
 <h5 className="card-title text-center  py-2 ">Card title</h5>
   <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-  <a href=""><i class="fa-regular fa-user"></i>AdminKlikPlus@gmail.com</a>
+  <Link to=""><i class="fa-regular fa-user"></i>AdminKlikPlus@gmail.com</Link>
   <div>
-  <a href="#" class="btn btn-primary">Read more</a>
+  <Link to="#" class="btn btn-primary">Read more</Link>
   </div>
 </div>
 </div>
@@ -32,9 +33,9 @@ const Blog = () => {
 <div className="card-body">
 <h5 className="card-title text-center  py-2 ">Card title</h5>
   <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-  <a href="">AdminKlikPlus@gmail.com</a>
+  <Link to="">AdminKlikPlus@gmail.com</Link>
   <div>
-  <a href="#" class="btn btn-primary">Read more</a>
+  <Link to="#" class="btn btn-primary">Read more</Link>
   </div>
 </div>
 </div>
@@ -46,9 +47,9 @@ const Blog = () => {
 <div className="card-body">
 <h5 className="card-title text-center  py-2 ">Card title</h5>
   <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-  <a href="">AdminKlikPlus@gmail.com</a>
+  <Link to="">AdminKlikPlus@gmail.com</Link>
   <div>
-  <a href="#" class="btn btn-primary">Read more</a>
+  <Link to="#" class="btn btn-primary">Read more</Link>
   </div>
 </div>
 </div>
