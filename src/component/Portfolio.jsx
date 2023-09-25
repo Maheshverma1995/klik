@@ -27,7 +27,7 @@ const Portfolio = () => {
              <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -56,7 +56,7 @@ const Portfolio = () => {
              <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -82,7 +82,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -101,7 +101,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" class="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" class="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -120,7 +120,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -139,7 +139,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -158,7 +158,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -177,7 +177,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>

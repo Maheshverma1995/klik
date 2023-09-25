@@ -12,11 +12,15 @@ const About = () => {
       <img src="./image/Port-top.png"  className="img-fluid" alt="top-img" />
     </div>
     {/* //////////////////////////////////////////////top-row end//////////////////////////////////////// */}
-    <div className="row upper-strip d-flex justify-content-center" >
-     <div className='col-1 py-2'><a href="/////" className='text-decoration-none'>Home</a></div>
-     <div className='col-1 py-2'><a href="////////" className='text-decoration-none'>Services</a></div>
-     <div className='col-1 py-2'><a href="/////////" className='text-decoration-none'>Portfolio</a></div>
+   
+
+    <div className="row ">
+    <div class="d-flex upper-strip justify-content-Start">
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</a>
     </div>
+   </div>
     {/* /////////////////////////////////sec-row-End///////////////////////////////////////////////// */}
     <div className="row d-flex justify-content-start" id='frame'>
       <div className="col-lg-6 ">
@@ -37,7 +41,7 @@ const About = () => {
     <div className="row mt-5 d-flex justify-content-start"  id='frame' >
     <div className="col-sm-6 col-md-4 mb-3">
         <div className="card"  >
-        <img src="./image/Rashmika.jpg" className=" height card-img-top img-fluid" alt="..."/>
+        <img src="./image/icon-img.png" className=" height card-img-top img-fluid" alt="..."/>
         <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
 <div className="card-body">
@@ -48,7 +52,7 @@ const About = () => {
 
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
-        <img src="./image/Rashmika.jpg" class="height img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="height img-fluid card-img-top" alt="..."/>
         <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
 <div className="card-body">
@@ -59,7 +63,7 @@ const About = () => {
 
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
-        <img src="./image/Rashmika.jpg" class=" height img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class=" height img-fluid card-img-top" alt="..."/>
         <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 <div className="card-body">
   <p className='height01 text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
@@ -172,42 +176,42 @@ const About = () => {
     <div className="row d-flex justify-content-center" >
      <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >  
-        <img src="./image/Rashmika.jpg" className="img-responsive card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="img-responsive card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
        <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/Rashmika.jpg" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
     </div>
@@ -263,7 +267,7 @@ const About = () => {
 
       <div className="col-sm-5 col-md-3 mb-3">
         <div className="card" >
-        <img src="./image/Rashmika.jpg" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
 <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
@@ -273,7 +277,7 @@ const About = () => {
       </div>
       <div className="col-sm-5 col-md-3  mb-3">
         <div className="card" >
-        <img src="./image/Rashmika.jpg" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
 <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
@@ -294,7 +298,7 @@ const About = () => {
 <div className="row">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
   <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -303,7 +307,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -312,7 +316,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -321,7 +325,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -341,7 +345,7 @@ const About = () => {
 <div className="row">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
   <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -350,7 +354,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -359,7 +363,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
@@ -368,7 +372,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/Rashmika.jpg" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center">Card title</h5>
   <h5 className="card-title text-center">Managing Director</h5>
