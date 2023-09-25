@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.social-icon
+{
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  margin-left: 8px;
+}
+#get-quota
+{
+  display: none;
+}
+@media screen and (max-width: 993px) {
+  #get-quota {
+    display: block;
+  }
+}
