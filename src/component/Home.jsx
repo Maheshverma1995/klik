@@ -4,12 +4,12 @@ import Slider from './Slider'
 const Home = () => {
   return (
     <div >
-        <Slider/>
-    <div className='container'>
+      <Slider />
+      <div className='container'>
         <div className='row'>
-            
+          
         </div>
-    </div>
+      </div>
     </div>
   )
 }
