@@ -1,7 +1,7 @@
 import React from 'react'
 import '../component/Portfolio.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle'
+import { Link } from 'react-router-dom'
+
 
 
 const About = () => {
@@ -12,13 +12,10 @@ const About = () => {
       <img src="./image/Port-top.png"  className="img-fluid" alt="top-img" />
     </div>
     {/* //////////////////////////////////////////////top-row end//////////////////////////////////////// */}
-   
-
-    <div className="row ">
-    <div class="d-flex upper-strip justify-content-Start">
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</a>
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</a>
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</a>
+    <div className="row upper-strip d-flex justify-content-center" >
+     <div className='col-1 py-2'><Link to="/////" className='text-decoration-none'>Home</Link></div>
+     <div className='col-1 py-2'><Link to="////////" className='text-decoration-none'>Services</Link></div>
+     <div className='col-1 py-2'><Link to="/////////" className='text-decoration-none'>Portfolio</Link></div>
     </div>
    </div>
     {/* /////////////////////////////////sec-row-End///////////////////////////////////////////////// */}
@@ -33,7 +30,7 @@ const About = () => {
         <div className='ball'></div>
       </div>
         <p className=" text-align">Alobha Technologies is an established software and application development company with advantageous and proven accomplishments engaged in catering Mobile Apps Development, CMS Development, Web Development, IT Outsourcing solutions & Digital marketing Services to globally. We are the best software development service provider in India. We have successfully conceptualized, developed and launched many web portals across the diverse industries. We are continuously investing in the latest technologies, processes, and technical nerds to help our customers to achieve their business goals and stay ahead from competitors. With finite resources and infinite expertise in Agile methodology that ensures the great fusion of a high level of customer satisfaction and cost-effective services.</p>
-  <a href="#" className="btn btn-primary mt-3" >Our Certificates</a>
+  <Link to="#" className="btn btn-primary mt-3" >Our Certificates</Link>
 
       </div>
     </div>
@@ -419,7 +416,7 @@ const About = () => {
 
 
      </div>
-    </div>
+    
   )
 }
 
