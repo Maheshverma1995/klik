@@ -13,6 +13,7 @@ import Contact from './component/Contact';
 import Erroe from './component/Erroe';
 import Footer from './component/Footer';
 import Services from './component/Services';
+import Card from './component/Card';
 
 
 
@@ -23,8 +24,10 @@ function App() {
       
         <Header />
         <HeaderNavbar />
+        <Card/>
         <Routes>
           <Route path="" element={<Home />}></Route>
+
           <Route path='about' element={<About/>}/>
           <Route path='services' element={<Services/>}/>
           <Route path='portfolio' element={<Portfolio/>}/>

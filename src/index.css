@@ -6,7 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*
+{
+  text-align: justify; 
+}
+li
+{
+  list-style: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,8 +22,8 @@ code {
 {
   padding: 5px;
   border-radius: 50%;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid rgb(254, 254, 254);
+  color: rgb(253, 253, 253);
   margin-left: 8px;
 }
 #get-quota
@@ -64,8 +71,14 @@ code {
   font-size: 20px;
 }
 .footer-li span{
-  color: antiquewhite;
-  font-size: 30px;
+  
+  left: 0px;
+  top: 5px;
+  color: #f15a24;
+  font-size: 12px;
+  margin-left: -16px;
+  font-family: "FontAwesome";
+  
 }
 .footer-a
 {
@@ -77,4 +90,51 @@ code {
 {
   width: 100%;
 
+}
+
+.contact-from
+{
+  background-image: url(../public/Image/footer-bg.webp);
+  background-color: #3854a5;
+}
+.contact-row-1
+{
+  background-image: linear-gradient(#e1f5fd,#ebf4fb);
+}
+.bg-1
+{
+  background-image: linear-gradient( #004196,#1d3451);
+}
+.bg
+{
+  background-image: linear-gradient(245deg, #004196,#1d3451, transparent);
+}
+#read-more {
+  color: #85e690;
+}
+.services-p
+{
+  margin-bottom: 0;
+    color: #fff;
+    font-size: 15px;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.nav-item
+{
+  color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-item::after
+{
+  content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f3a712;
+    transition: width 0.3s;
 }
