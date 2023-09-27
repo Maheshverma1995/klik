@@ -13,7 +13,7 @@ import Contact from './component/Contact';
 import Erroe from './component/Erroe';
 import Footer from './component/Footer';
 import Services from './component/Services';
-import Card from './component/Card';
+
 
 
 
@@ -21,22 +21,20 @@ import Card from './component/Card';
 function App() {
   return (
     <BrowserRouter>
-      
-        <Header />
-        <HeaderNavbar />
-        <Card/>
-        <Routes>
-          <Route path="" element={<Home />}></Route>
+      <Header />
+      <HeaderNavbar />
+      <Routes>
+        <Route path="" element={<Home />}></Route>
 
-          <Route path='about' element={<About/>}/>
-          <Route path='services' element={<Services/>}/>
-          <Route path='portfolio' element={<Portfolio/>}/>
-          <Route path='career' element={<Career/>}/>
-          <Route path='blog' element={<Blog/>}/>
-          <Route path='contact' element={<Contact/>}/>
-          <Route path='*' element={<Erroe/>}/>
-        </Routes>
-        <Footer/>
+        <Route path='about' element={<About />} />
+        <Route path='services' element={<Services />} />
+        <Route path='portfolio' element={<Portfolio />} />
+        <Route path='career' element={<Career />} />
+        <Route path='blog' element={<Blog />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='*' element={<Erroe />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   )
 };

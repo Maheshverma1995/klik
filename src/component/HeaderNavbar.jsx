@@ -1,12 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const HeaderNavbar = () => {
+  const [Top, setTop] = useState(false);
+  const [close, setclose] = useState(true);
+
+  const toolgal = () => {
+    setclose(!close);
+  };
+
+  const closeNav = () => {
+    setclose(true);
+  };
+
+  useEffect(() => {
+    // Function to handle scroll event
+    const scroll = () => {
+      if (window.scrollY ===0) {
+        setTop(false);
+      } else {
+        setTop(true);
+      }
+    };
+
+    window.addEventListener('scroll', scroll);
+    return () => {
+      window.removeEventListener('scroll', scroll);
+    };
+  }, []);
+
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg  sticky-top">
+      <nav
+        className={`navbar navbar-expand-lg navbar-dark bg ${Top ? 'fixed-top' : ''}`}
+      >
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" onClick={closeNav} to="/">
             <img style={{ width: '100px' }} className="img-fluid" src="./Image/logo.png" alt="" />
           </Link>
           <button
@@ -17,44 +46,45 @@ const HeaderNavbar = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={toolgal}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${close ? '' : 'show'}`} id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white active" aria-current="page" to="/">
+                <Link className="nav-link fs-5 text-white active" aria-current="page" onClick={closeNav} to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" to="/about">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/about">
                   About Us
                 </Link>
               </li>
               <li className="nav-item" id="service-link">
-                <Link className="nav-link fs-5 text-white" to="/services">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/services">
                   Services
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" to="/portfolio">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/portfolio">
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" to="/career">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/career">
                   Career
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" to="/blog">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" to="/contact">
+                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/contact">
                   Contact Us
                 </Link>
               </li>

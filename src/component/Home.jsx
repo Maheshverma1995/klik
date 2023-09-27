@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from './Slider'
 import '../component/Portfolio.css'
+import CardSlider from './Card';
 
 const Home = () => {
   return (
@@ -23,43 +24,46 @@ const Home = () => {
             </div>
           </div>
           <div className='container-fluid contact-row-1 contact-row-1'>
-          <div className='row mt-3 mb-2'>
+            <div className='row mt-3 mb-2'>
 
-<div className='col-lg-4'>
-  <ul>
-    <li className='Our-Services'>Cutting Edge and Functional Websites</li>
-    <li className='Our-Services'>Intelligent Marketing Strategies</li>
-    <li className='Our-Services'>Experienced, Skilled Designers & Programmers</li>
-    <li className='Our-Services'>Business Intelligence</li>
-  </ul>
-</div>
-<div className='col-lg-4'>
-  <ul>
-    <li className='Our-Services'>Intelligent and Attractive Applications</li>
-    <li className='Our-Services'>
-      24X7 Customer Support</li>
-    <li className='Our-Services'>Game Development</li>
-    <li className='Our-Services'>Digital Marketing</li>
-  </ul>
-</div>
-<div className='col-lg-4'>
-  <ul>
-    <li className='Our-Services'>
-      Far Reaching Marketing Campaigns</li>
-    <li className='Our-Services'>Professional Approach & Prompt Communication</li>
-    <li className='Our-Services'>Block Chain Development</li>
-    <li className='Our-Services'>Cutting Edge and Functional Websites</li>
-  </ul>
-</div>
-</div>
+              <div className='col-lg-4'>
+                <ul>
+                  <li className='Our-Services'>Cutting Edge and Functional Websites</li>
+                  <li className='Our-Services'>Intelligent Marketing Strategies</li>
+                  <li className='Our-Services'>Experienced, Skilled Designers & Programmers</li>
+                  <li className='Our-Services'>Business Intelligence</li>
+                </ul>
+              </div>
+              <div className='col-lg-4'>
+                <ul>
+                  <li className='Our-Services'>Intelligent and Attractive Applications</li>
+                  <li className='Our-Services'>
+                    24X7 Customer Support</li>
+                  <li className='Our-Services'>Game Development</li>
+                  <li className='Our-Services'>Digital Marketing</li>
+                </ul>
+              </div>
+              <div className='col-lg-4'>
+                <ul>
+                  <li className='Our-Services'>
+                    Far Reaching Marketing Campaigns</li>
+                  <li className='Our-Services'>Professional Approach & Prompt Communication</li>
+                  <li className='Our-Services'>Block Chain Development</li>
+                  <li className='Our-Services'>Cutting Edge and Functional Websites</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div className='row mt-3 mb-2'>
             <h2 className='text-center mt-4 '>Our Featured Solutions
               <div className=" pen">
                 <div className='ball'></div>
               </div>
-              </h2>
-              <p>Our skilled team, along with our worldwide network, permit us to offer the help and support you.Our featured Solutions are intended for adding more value to businesses, gear up the productivity and attain the new business heights.</p>
+            </h2>
+            <p>Our skilled team, along with our worldwide network, permit us to offer the help and support you.Our featured Solutions are intended for adding more value to businesses, gear up the productivity and attain the new business heights.</p>
+          </div>
+          <div className='row'>
+            <CardSlider/>
           </div>
           <div className='row mt-3 mb-2'>
             <div className='col-lg-6'>
@@ -121,8 +125,8 @@ const Home = () => {
               <h1 className='text-center'>Design & Development
               </h1>
               <div className=" pen01">
-                  <div className='ball'></div>
-                </div>
+                <div className='ball'></div>
+              </div>
               <p>Klik Plus Design & Development
                 A design can improve with the contribution of a developer, and code can be better written with the assistance of a designer. With the years of experience, we are able to deliver the perfect web design and development solutions to you.</p>
               <div className='row mt-3 mb-2'>
@@ -153,8 +157,8 @@ const Home = () => {
             <h1 className='text-center mt-2 mb-4'>
               What Users Saying
               <div className=" pen">
-                  <div className='ball'></div>
-                </div>
+                <div className='ball'></div>
+              </div>
             </h1>
 
             <p className='text-center mb-2 mt-1'>We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.</p>
@@ -175,32 +179,32 @@ const Home = () => {
               </div>
             </div>
             <div className='row mt-3 mb-2'>
-              
+
             </div>
           </div>
         </div>
-        <div className='container contact-row-1'>
+        <div className='container'>
           <div className='row mb-5'>
             <h1 className='m-auto p-2 col-6'>We Always Try To Understand Users Expectation</h1>
 
             <p className='mt-4'>We help our clients to solve their hardest issues. We provide proficient ITES Development services according to your necessities in reasonable expen01se. Few facts which explore us most.</p>
           </div>
-          <div className='row m-auto border mt-3 mb-2' style={{maxWidth:'500px'}}>
+          <div className='row m-auto border rounded mt-3 mb-2 bg-white p-3' style={{ maxWidth: '500px' }}>
             <div className='col-sm-6 mt-2 mb-3'><h6>Have any question about us?</h6>
               <p>Don't hesitate to contact us</p>
             </div>
-            <div className='col-sm-6 mt-2 mb-3'> <button type="button" className="btn btn-primary">Contact US</button></div>
+            <div className='col-sm-6 mt-4 mb-3 ps-5'> <button type="button" className="btn btn-primary">Contact US</button></div>
           </div>
         </div>
-        <div className='container-fluid contact-row-1'>
-          <div className='container contact-row-1'>
-            <div className='row mt-3 mb-2'>
+        <div className='container-fluid bg-1'>
+          <div className='container'>
+            <div className='row mt-3'>
               <h1 className='text-center mt-2 mb-4'>Our Client</h1>
               <div className=" pen">
-                  <div className='ball'></div>
-                </div>
+                <div className='ball'></div>
+              </div>
               <div className='col-12'>
-                <img className='img-fluid mt-3 p-3' src="./Image/client1.png" alt="" />
+                <img className='img-fluid mt-3 mb-5' src="./Image/client1.png" alt="" />
               </div>
             </div>
           </div>
