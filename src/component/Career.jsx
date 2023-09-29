@@ -45,9 +45,9 @@ const Career = () => {
     
   <tbody>
     <tr>
-      <th scope="row"><a href="">mobile</a></th>
-      <td>Mark</td>
-      <td>Otto</td>
+      <th scope="row"><a href="">Mobile Aplication Developer</a></th>
+      <td>Flutter Developer</td>
+      <td>Business Develpment Exclustive</td>
    
     </tr>
     <tr>

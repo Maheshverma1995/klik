@@ -8,11 +8,14 @@ const Portfolio = () => {
       <div className="row">
         <img src="./image/Port-top.png" className="img-fluid" alt="top-img" />
       </div>
-      <div className="row upper-strip d-flex justify-content-center" >
-        <div className='col-1 py-2'><Link to="/////" className='text-decoration-none'>Home</Link></div>
-        <div className='col-1 py-2'><Link to="////////" className='text-decoration-none'>Services</Link></div>
-        <div className='col-1 py-2'><Link to="/////////" className='text-decoration-none'>Portfolio</Link></div>
-      </div>
+      <div className="row ">
+    <div class="d-flex upper-strip justify-content-Start">
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</a>
+    </div>
+   </div>
+   
       <div className="row ">
         <div className="col-12 fs-2 text-center text-primary">Our Products</div>
         <div className=" pen">

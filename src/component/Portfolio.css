@@ -146,4 +146,9 @@ transform-style: preserve-3d;transition: all 2s;}
     
 }
 
+.next{
+    box-sizing: border-box;
+
+}
+
 

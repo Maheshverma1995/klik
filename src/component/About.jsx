@@ -12,11 +12,13 @@ const About = () => {
       <img src="./image/Port-top.png"  className="img-fluid" alt="top-img" />
     </div>
     {/* //////////////////////////////////////////////top-row end//////////////////////////////////////// */}
-    <div className="row upper-strip d-flex justify-content-center" >
-     <div className='col-1 py-2'><Link to="/////" className='text-decoration-none'>Home</Link></div>
-     <div className='col-1 py-2'><Link to="////////" className='text-decoration-none'>Services</Link></div>
-     <div className='col-1 py-2'><Link to="/////////" className='text-decoration-none'>Portfolio</Link></div>
+    <div className="row ">
+    <div class="d-flex upper-strip justify-content-Start">
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</a>
+      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</a>
     </div>
+   </div>
    </div>
     {/* /////////////////////////////////sec-row-End///////////////////////////////////////////////// */}
     <div className="row d-flex justify-content-start" id='frame'>
@@ -39,10 +41,10 @@ const About = () => {
     <div className="col-sm-6 col-md-4 mb-3">
         <div className="card"  >
         <img src="./image/icon-img.png" className=" height card-img-top img-fluid" alt="..."/>
-        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
+        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Vision</h5>
 
 <div className="card-body">
-  <p className='height01 text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+  <p className='height01 text-align  '>Alobha technologies is one of the protuberant software development companies that transform other businesses by innovatively connecting dots from design to development. It differentiates you from the market and provides healthier engagement with clienteles & partners.</p>
 </div>
 </div>
       </div>
@@ -50,7 +52,7 @@ const About = () => {
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
         <img src="./image/icon-img.png" class="height img-fluid card-img-top" alt="..."/>
-        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
+        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Mission</h5>
 
 <div className="card-body">
   <p className='height01 text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
@@ -61,9 +63,9 @@ const About = () => {
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
         <img src="./image/icon-img.png" class=" height img-fluid card-img-top" alt="..."/>
-        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
+        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Value</h5>
 <div className="card-body">
-  <p className='height01 text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+  <p className='height01 text-align  '>Great builds come from organized teams that are responsible for themselves. We Focus on the client requirements and all else will follow. It’s best to do one thing really, really well. Integrity, Boldness and Honesty are our three pillars.</p>
 </div>
 </div>
       </div>
@@ -104,7 +106,7 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Card title</h5>
+  <h5 className="card-title text-center ">Media Streaming</h5>
 </div>
 </div>
       </div>
@@ -120,7 +122,7 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+  <h5 className="card-title text-center ">mCommerce</h5>
 </div>
 </div>
       </div>
@@ -128,7 +130,7 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+  <h5 className="card-title text-center ">Mobile Healthcare</h5>
 </div>
 </div>
       </div>
@@ -136,7 +138,7 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+  <h5 className="card-title text-center ">Workflow & Asset Management</h5>
 </div>
 </div>
       </div>
@@ -144,7 +146,7 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+  <h5 className="card-title text-center ">Mobile Games</h5>
 </div>
 </div>
       </div>
@@ -152,18 +154,11 @@ const About = () => {
         <div className="card border-0" >  
         <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+  <h5 className="card-title text-center ">Fleet Management</h5>
 </div>
 </div>
       </div>
-      <div className="col-sm-6 col-md-4 mb-3">
-        <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
-<div className="card-body">
-  <h5 className="card-title text-center ">Digital Content Distribution</h5>
-</div>
-</div>
-      </div>
+     
 
 
     </div>
@@ -173,42 +168,42 @@ const About = () => {
     <div className="row d-flex justify-content-center" >
      <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >  
-        <img src="./image/icon-img.png" className="img-responsive card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/about-2st.webp" className="img-responsive card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/b.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/c.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/trsm.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/f.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/g.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/7.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
        <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/8.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
     </div>
@@ -230,14 +225,56 @@ const About = () => {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-  <div class="carousel-item active" data-bs-interval="1000">
-      <img src="./image/slider-1.png" className="d-block  box m-auto" alt="..."/>
+  <div className="carousel-item active" data-bs-interval="1000">
+  <div className="card mb-3 d-block box m-auto" >
+  <div className="row g-0">
+    <div className="col-md-4">
+      <img src="./image/1.webp" class="img-fluid rounded-start " alt="..."/>
+    </div>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">I know I speak for all of our employees as I proudly inform you about our company and the ideals which we stand for Alobha's mission can be summed up in three words – Deliver, Technology &amp; Innovation.</p>
+        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <div className="carousel-item">
-      <img src="./image/slider-2.png" className="d-block box m-auto"  data-bs-interval="1000" alt="..."/>
+    <div className="card mb-3 d-block box m-auto" >
+  <div className="row g-0">
+    <div className="col-md-4">
+      <img src="./image/1.webp" class="img-fluid next rounded-start" alt="..."/>
+    </div>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">
+        Alobha technologies is a dynamic and fast-growing, performance- based agency. Our primary goal as a team is to provide the best value possible to every organizationwe work with and for us that begins by providing.
+        
+      </p>
+        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <div className="carousel-item">
-      <img src="./image/slider-3.png" className="d-block box m-auto"  data-bs-interval="1000" alt="..."/>
+    <div className="card mb-3 d-block box m-auto" >
+  <div className="row g-0">
+    <div className="col-md-4">
+      <img src="./image/4.webp" class="img-fluid rounded-start " alt="..."/>
+    </div>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">It is our endeavor to become of the top IT software solution while still remaining grounded in moral values. We are moving ahead with innovative ideas, strategies and technologies and have achieved. important milestone in our journey.</p>
+        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -253,7 +290,7 @@ const About = () => {
 
 {/* ////////////////////////////////////Carousel-End///////////////////////////////////////// */}
 <div className="row">
-<div className="col-12 fs-2 text-center text-primary">Our Director Message</div>
+<div className="col-12 fs-2 text-center text-primary">Our Awesome Team</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
@@ -264,21 +301,23 @@ const About = () => {
 
       <div className="col-sm-5 col-md-3 mb-3">
         <div className="card" >
-        <img src="./image/icon-img.png" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/ashish.webp" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
-<h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
+<h5 className="card-title text-center bg-primary py-2 ">Ashish Kumar <br /> <span style={{fontSize:"14px"}}>Chief Operating Officer (COO)</span></h5>
 
-  <p className='height01 text-align'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+  <p className='height01 text-align'>It is great to work for a company that encourages new ideas and talents. At Alobha, It is very satisfying that we are helping people to find jobs, and promoting the new talents to come forward and learn new skills of trending Technologies on Web &amp; Mobile App Development.</p>
 </div>
 </div>
       </div>
       <div className="col-sm-5 col-md-3  mb-3">
         <div className="card" >
-        <img src="./image/icon-img.png" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/sandeep.webp" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
-<h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
+  
+<h5 className="card-title text-center bg-primary py-2 ">Sandeep Gupta <br /> <span style={{fontSize:"14px"}}>BPM and Product Manager</span></h5>
 
-  <p className='height01 text-align'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+
+  <p className='height01 text-align'>As a Software development company, we are responsible for driving our business.We serve our customers, quality, reliability, durability, vocational value. Alobha Technologies is committed to Serve Better Solution and set a high standard of development</p>
 </div>
 </div>
       </div>
@@ -286,7 +325,7 @@ const About = () => {
 
 {/* ///////////////////////////////////Our Partners////////////////////////////////////////////////// */}
 <div className="row">
-<div className="col-12 fs-2 text-center text-primary">Our Director Message</div>
+<div className="col-12 fs-2 text-center text-primary">Our Partners</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
@@ -295,37 +334,40 @@ const About = () => {
 <div className="row">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/ernest.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-  <h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+  <h5 className="card-title text-center text-light">Ernest M. Roberts</h5>
+  <h5 className="card-title text-center text-light">
+Director (UA Washington)</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/fxmallen.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Fx Mallen</h5>
+  <h5 className="card-title text-center text-light">
+Director (France)</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/afanwi.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Afnawi Neba</h5>
+  <h5 className="card-title text-center text-light">
+Director (Cameroon)</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/smallwood.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Derreck Landon</h5>
+  <h5 className="card-title text-center text-light">Director (USA)</h5>
 </div>
 </div>
       </div>
@@ -342,37 +384,38 @@ const About = () => {
 <div className="row">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/lawal.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-  <h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+  <h5 className="card-title text-center text-light">Lawal Rahman Artbeat</h5>
+  <h5 className="card-title text-center text-light">Nigeria</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/husan.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Hassan Rucyemangabo
+</h5>
+  <h5 className="card-title text-center text-light">Rwanda</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/johann.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Johann Bain</h5>
+  <h5 className="card-title text-center text-light">Bahamas</h5>
 </div>
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/icon-img.png" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/arun.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
-<h5 className="card-title text-center">Card title</h5>
-  <h5 className="card-title text-center">Managing Director</h5>
+<h5 className="card-title text-center text-light">Arun Luthra</h5>
+  <h5 className="card-title text-center text-light">Chandigarh</h5>
 </div>
 </div>
       </div>
