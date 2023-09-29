@@ -26,6 +26,11 @@ code {
   color: rgb(253, 253, 253);
   margin-left: 8px;
 }
+.social-icon:hover
+{
+  background-color: #f3a712;
+  color:red;
+}
 #get-quota
 {
   display: none;

@@ -199,7 +199,7 @@ const Home = () => {
         <div className='container-fluid bg-1'>
           <div className='container'>
             <div className='row mt-3'>
-              <h1 className='text-center mt-2 mb-4'>Our Client</h1>
+              <h1 className='text-center text-white mt-2 mb-4'>Our Client</h1>
               <div className=" pen">
                 <div className='ball'></div>
               </div>
