@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube, FaGreaterThan } from "react-icons/fa";
 import Iframe from 'react-iframe';
+import ContrySlider from './ContrySlider';
 const Footer = () => {
    return (
       <div>
@@ -87,6 +88,12 @@ const Footer = () => {
                         </div>
                      </div>
                   </div>
+               </div>
+               <div className='row'>
+                  <h1 className='text-center text-white mt-3 mb-5'>Our Global Presence</h1>
+                 
+                     <ContrySlider/>
+                  
                </div>
             </div>
          </div>

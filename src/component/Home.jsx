@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from './Slider'
 import '../component/Portfolio.css'
 import CardSlider from './Card';
+import Coustumer from './Coustumer';
 
 const Home = () => {
   return (
@@ -161,22 +162,9 @@ const Home = () => {
               </div>
             </h1>
 
-            <p className='text-center mb-2 mt-1'>We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.</p>
-            <div className='row mt-3 mb-2'>
-              <div className="card mb-3">
-                <div className="row g-0">
-                  <div className="col-md-4">
-                    <img src="./Image/client4.png" className="img-fluid mt-3 p-3 rounded-circle" alt="..." />
-                  </div>
-                  <div className="col-md-8">
-                    <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <p className='text-center mb-2 mt-1 fs-5'>We love what we do and we do what our clients love & work with great clients all over the world to create thoughtful and purposeful websites.</p>
+            <div className='mt-3'>
+              <Coustumer/>
             </div>
             <div className='row mt-3 mb-2'>
 

@@ -13,6 +13,7 @@ import Contact from './component/Contact';
 import Erroe from './component/Erroe';
 import Footer from './component/Footer';
 import Services from './component/Services';
+import Whatapp from './component/Whatapp';
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <HeaderNavbar />
+      <Whatapp/>
       <Routes>
         <Route path="" element={<Home />}></Route>
 

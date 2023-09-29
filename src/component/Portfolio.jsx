@@ -10,9 +10,9 @@ const Portfolio = () => {
       </div>
       <div className="row ">
     <div class="d-flex upper-strip justify-content-Start">
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</a>
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</a>
-      <a className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</a>
+      <Link className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</Link>
+      <Link className='border mx-1 px-2 text-decoration-none fs-4' href="">Services</Link>
+      <Link className='border mx-1 px-2 text-decoration-none fs-4' href="">Portfolio</Link>
     </div>
    </div>
    

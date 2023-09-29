@@ -168,3 +168,11 @@ code {
   height: 400px;
   padding: 20px;
 }
+.slick-next::before
+{
+  display: none;
+}
+.slick-prev:before 
+{
+  display: none;
+}
