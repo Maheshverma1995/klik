@@ -32,6 +32,7 @@
     animation-iteration-count: infinite;
     animation: move 3500ms infinite  linear forwards;
 }
+
 @keyframes move {
     from {
         -webkit-transform: translateX(0);

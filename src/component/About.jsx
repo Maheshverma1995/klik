@@ -6,11 +6,10 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
-    <div>
-     <div className="container-fluid">
-     <div className="row">
-      <img src="./image/Port-top.png"  className="img-fluid" alt="top-img" />
-    </div>
+    <div className='contact-row-1'>
+      <img src="./image/about-us-baner.webp"  className="img-fluid" alt="top-img" />
+     <div className="container-fluid ">
+     
     {/* //////////////////////////////////////////////top-row end//////////////////////////////////////// */}
     <div className="row ">
     <div class="d-flex upper-strip justify-content-Start">
@@ -21,7 +20,7 @@ const About = () => {
    </div>
    </div>
     {/* /////////////////////////////////sec-row-End///////////////////////////////////////////////// */}
-    <div className="row d-flex justify-content-start" id='frame'>
+    <div className="row mt-5 mb-3 d-flex justify-content-start" id='frame'>
       <div className="col-lg-6 ">
       <img src="./image/Port-top2.png"  className="img-fluid" alt="top-img" />
 
@@ -37,11 +36,11 @@ const About = () => {
       </div>
     </div>
     {/* /////////////////////////////////3rd-row-End///////////////////////////////////////////////// */}
-    <div className="row mt-5 d-flex justify-content-start"  id='frame' >
+    <div className="row mt-5 mb-3 mt-5 d-flex justify-content-start"  id='frame' >
     <div className="col-sm-6 col-md-4 mb-3">
         <div className="card"  >
-        <img src="./image/icon-img.png" className=" height card-img-top img-fluid" alt="..."/>
-        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Vision</h5>
+        <img src="./image/2.webp" className=" height card-img-top img-fluid" alt="..."/>
+        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
 <div className="card-body">
   <p className='height01 text-align  '>Alobha technologies is one of the protuberant software development companies that transform other businesses by innovatively connecting dots from design to development. It differentiates you from the market and provides healthier engagement with clienteles & partners.</p>
@@ -51,8 +50,8 @@ const About = () => {
 
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
-        <img src="./image/icon-img.png" class="height img-fluid card-img-top" alt="..."/>
-        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Mission</h5>
+        <img src="./image/2.webp" className="height img-fluid card-img-top" alt="..."/>
+        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 
 <div className="card-body">
   <p className='height01 text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
@@ -62,8 +61,8 @@ const About = () => {
 
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card" >
-        <img src="./image/icon-img.png" class=" height img-fluid card-img-top" alt="..."/>
-        <h5 className="card-title text-center text-light bg-primary py-2 ">Our Value</h5>
+        <img src="./image/2.webp" className=" height img-fluid card-img-top" alt="..."/>
+        <h5 className="card-title text-center bg-primary py-2 ">Card title</h5>
 <div className="card-body">
   <p className='height01 text-align  '>Great builds come from organized teams that are responsible for themselves. We Focus on the client requirements and all else will follow. It’s best to do one thing really, really well. Integrity, Boldness and Honesty are our three pillars.</p>
 </div>
@@ -73,14 +72,14 @@ const About = () => {
 
     {/* ////////////////////////////////////////////////////////////////////////////////////////// */}
 
-    <div className="row ">
+    <div className="row mt-5 mb-3 ">
       <div className="col-12 fs-2 text-center text-primary">Our Products</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
     </div>
 
-    <div className="row d-flex justify-content-start" id='frame'>
+    <div className="row mt-5 mb-3 d-flex justify-content-start" id='frame'>
       
       <div className="col-md-6">
         <div className="fs-2 text-primary mt-5">The Launch Year</div>
@@ -94,17 +93,17 @@ const About = () => {
     </div>
 
   {/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-12 fs-2 text-center text-primary">Application Development Solutions</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
 {/* //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-<div className="row d-flex justify-content-center" id='frame' >
+<div className="row mt-5 mb-3 d-flex justify-content-center" id='frame' >
      <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
   <h5 className="card-title text-center ">Media Streaming</h5>
 </div>
@@ -112,7 +111,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <dDigital Content Distributionme="card-body">
   <h5 className="card-title text-center ">Digital Content Distribution</h5>
 </dDigital>
@@ -120,7 +119,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
   <h5 className="card-title text-center ">mCommerce</h5>
 </div>
@@ -128,7 +127,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
   <h5 className="card-title text-center ">Mobile Healthcare</h5>
 </div>
@@ -136,7 +135,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
   <h5 className="card-title text-center ">Workflow & Asset Management</h5>
 </div>
@@ -144,7 +143,7 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
   <h5 className="card-title text-center ">Mobile Games</h5>
 </div>
@@ -152,9 +151,17 @@ const About = () => {
       </div>
       <div className="col-sm-6 col-md-4 mb-3">
         <div className="card border-0" >  
-        <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
 <div className="card-body">
-  <h5 className="card-title text-center ">Fleet Management</h5>
+  <h5 className="card-title text-center ">Digital Content Distribution</h5>
+</div>
+</div>
+      </div>
+      <div className="col-sm-6 col-md-4 mb-3">
+        <div className="card border-0" >  
+        <img src="./image/2.webp" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>    
+<div className="card-body">
+  <h5 className="card-title text-center ">Digital Content Distribution</h5>
 </div>
 </div>
       </div>
@@ -165,51 +172,53 @@ const About = () => {
 
     {/* ////////////////////////////////////////////////////////////////////////////////////// */}
 
-    <div className="row d-flex justify-content-center" >
+   <div className='container'>
+   <div className="row mt-5 mb-3 d-flex justify-content-center" >
      <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >  
-        <img src="./image/about-2st.webp" className="img-responsive card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className=" card-img-top p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/b.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/c.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/trsm.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/f.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/g.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/7.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
        <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >  
-        <img src="./image/8.webp" className="card-img-top img-responsive p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
+        <img src="./image/2.webp" className="card-img-top  p-2 image-fluid" style={{height:"400px"}} alt="Rashmika"/>    
 </div>
       </div>
     </div>
+   </div>
     
 {/* /////////////////////////////////////////////////////////////////////////////////////////// */}
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-12 fs-2 text-center text-primary">Our Director Message</div>
       <div className=" pen">
         <div className='ball'></div>
@@ -217,7 +226,7 @@ const About = () => {
 </div>
 
 {/* ////////////////////////////////////////////carousel//////////////////////////////////////////////// */}
-<div className="row ">
+<div className="row mt-5 mb-3 ">
 <div id="carouselExampleIndicators" className="carousel  slide border-0" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -226,20 +235,7 @@ const About = () => {
   </div>
   <div className="carousel-inner">
   <div className="carousel-item active" data-bs-interval="1000">
-  <div className="card mb-3 d-block box m-auto" >
-  <div className="row g-0">
-    <div className="col-md-4">
-      <img src="./image/1.webp" class="img-fluid rounded-start " alt="..."/>
-    </div>
-    <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">I know I speak for all of our employees as I proudly inform you about our company and the ideals which we stand for Alobha's mission can be summed up in three words – Deliver, Technology &amp; Innovation.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
+      <img src="./image/slider-1.png" className="d-block  box m-auto" alt="..."/>
     </div>
     <div className="carousel-item">
     <div className="card mb-3 d-block box m-auto" >
@@ -289,19 +285,19 @@ const About = () => {
 </div>
 
 {/* ////////////////////////////////////Carousel-End///////////////////////////////////////// */}
-<div className="row">
-<div className="col-12 fs-2 text-center text-primary">Our Awesome Team</div>
+<div className="row mt-5 mb-3">
+<div className="col-12 fs-2 text-center text-primary">Our Director Message</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
 <div className="col-12  text-center mb-4">We believe in bringing together the professionals having vast experiences, different Skill Sets and passion for providing your business with the best experience.</div>
 
-<div className="row d-flex justify-content-center">
+<div className="row mt-5 mb-3 d-flex justify-content-center">
 
       <div className="col-sm-5 col-md-3 mb-3">
         <div className="card" >
-        <img src="./image/ashish.webp" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
 <h5 className="card-title text-center bg-primary py-2 ">Ashish Kumar <br /> <span style={{fontSize:"14px"}}>Chief Operating Officer (COO)</span></h5>
 
@@ -311,7 +307,7 @@ const About = () => {
       </div>
       <div className="col-sm-5 col-md-3  mb-3">
         <div className="card" >
-        <img src="./image/sandeep.webp" class="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="height02 p-4 m-auto rounded-circle img-fluid card-img-top" alt="..."/>
 <div className="card-body">
   
 <h5 className="card-title text-center bg-primary py-2 ">Sandeep Gupta <br /> <span style={{fontSize:"14px"}}>BPM and Product Manager</span></h5>
@@ -324,17 +320,17 @@ const About = () => {
 </div>
 
 {/* ///////////////////////////////////Our Partners////////////////////////////////////////////////// */}
-<div className="row">
-<div className="col-12 fs-2 text-center text-primary">Our Partners</div>
+<div className="row mt-5 mb-3">
+<div className="col-12 fs-2 text-center text-primary">Our Director Message</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
 
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/ernest.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
   <h5 className="card-title text-center text-light">Ernest M. Roberts</h5>
   <h5 className="card-title text-center text-light">
@@ -344,7 +340,7 @@ Director (UA Washington)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/fxmallen.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Fx Mallen</h5>
   <h5 className="card-title text-center text-light">
@@ -354,7 +350,7 @@ Director (France)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/afanwi.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Afnawi Neba</h5>
   <h5 className="card-title text-center text-light">
@@ -364,7 +360,7 @@ Director (Cameroon)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/smallwood.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Derreck Landon</h5>
   <h5 className="card-title text-center text-light">Director (USA)</h5>
@@ -374,17 +370,17 @@ Director (Cameroon)</h5>
 </div>
 
 {/* //////////////////////////Our Associate Channel Partners/////////////////////// */}
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-12 fs-2 text-center text-primary">Our Associate Channel Partners</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
 
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-sm-6 col-md-3 mb-3">
         <div className="card  border-0" >
-        <img src="./image/lawal.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
   <h5 className="card-title text-center text-light">Lawal Rahman Artbeat</h5>
   <h5 className="card-title text-center text-light">Nigeria</h5>
@@ -393,7 +389,7 @@ Director (Cameroon)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/husan.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Hassan Rucyemangabo
 </h5>
@@ -403,7 +399,7 @@ Director (Cameroon)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0 " >
-        <img src="./image/johann.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Johann Bain</h5>
   <h5 className="card-title text-center text-light">Bahamas</h5>
@@ -412,7 +408,7 @@ Director (Cameroon)</h5>
       </div>
       <div className="col-sm-6 col-md-3 mb-3">
         <div className="card border-0" >
-        <img src="./image/arun.webp" class="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
+        <img src="./image/2.webp" className="team-image height03 m-auto rounded-circle  img-fluid card-img-top" alt="..."/>
 <div className="card-body team-content">
 <h5 className="card-title text-center text-light">Arun Luthra</h5>
   <h5 className="card-title text-center text-light">Chandigarh</h5>
@@ -421,13 +417,13 @@ Director (Cameroon)</h5>
       </div>
 </div>
 {/* //////////////////////////////////Alobha Group/////////////////////////////////////// */}
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-12 fs-2 text-center text-primary">Alobha Group</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
-<div className="row d-flex justify-content-center">
+<div className="row mt-5 mb-3 d-flex justify-content-center">
   <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
   <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
   <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
@@ -437,13 +433,13 @@ Director (Cameroon)</h5>
 
 
 {/* ///////////////////////////////A Unit Of Alobha Technologies Pvt Ltd.///////////////////////////// */}
-<div className="row">
+<div className="row mt-5 mb-3">
 <div className="col-12 fs-2 text-center text-primary">A Unit Of Alobha Technologies Pvt Ltd.</div>
       <div className=" pen">
         <div className='ball'></div>
       </div>
 </div>
-<div className="row mb-4 d-flex justify-content-center">
+<div className="row mt-5 mb-3 mb-4 d-flex justify-content-center">
 <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
   <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
   <div className='last-w img-fluid'><img src="./image/golde.webp" alt="" /> </div>
