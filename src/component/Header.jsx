@@ -17,6 +17,7 @@ const Header = () => {
             </div>
             <div className='col-lg-6 d-flex justify-content-center'>
             <Link className="navbar-brand"><span className='text-white pe-2'><FaEnvelopeOpen/></span><span className='text-white'>Email:share.klikplus@gmail.com</span></Link>
+            {/* <img src="./Image/becomepartner_button.webp" alt="" /> */}
             </div>
             <div className='col-sm-4'id='get-quota'>
             <form className="d-flex" role="search">

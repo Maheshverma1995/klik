@@ -35,7 +35,7 @@ const CardSlider = () => {
       <div className='row mt-2 mb-3'>
         <Slider {...settings}>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/loyalty-card.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">Loyalty Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -45,7 +45,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/online-shop.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">E-Commrece Services</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -65,7 +65,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/ott.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">OTT Platform</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -75,7 +75,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/hospital.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">Hospital Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -85,7 +85,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/school (1).webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">School Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -95,7 +95,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/loyalty-card.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">Loyalty Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -105,7 +105,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/online-shop.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">E-Commrece Services</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -115,7 +115,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/business.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">On-demand Service Apps</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -135,7 +135,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/hospital.webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">Hospital Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>
@@ -145,7 +145,7 @@ const CardSlider = () => {
             </div>
           </div>
           <div className="card bg-1 border border-5" id='card-slider'>
-            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/1.webp" className="card-img-top p-2" alt="..." /></div>
+            <div class="d-flex justify-content-center"> <img style={{ height: '100px', width: '100px', display: 'flex', justifyContent: 'center' }} src="./Image/school (1).webp" className="card-img-top p-2" alt="..." /></div>
             <div className="card-body">
               <h5 className="card-title text-center text-white fs-6 text-uppercase">School Management System</h5>
               <p className="card-text text-dark text-white mt-2 " style={{fontSize:'15px'}}>

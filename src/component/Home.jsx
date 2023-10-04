@@ -4,6 +4,7 @@ import '../component/Portfolio.css'
 import CardSlider from './Card';
 import Coustumer from './Coustumer';
 
+
 const Home = () => {
   return (
     <div >
@@ -20,8 +21,8 @@ const Home = () => {
               </p>
               <button type="button" className="btn btn-primary">Read-more</button>
             </div>
-            <div className='col-lg-6'>
-              <img className='img-fluid mt-3 p-3' src="./Image/Port-top2.png" alt="" />
+            <div className='col-lg-6 image-animated'>
+              <img className='img-fluid  w-75' src="./Image/about-us-section2.webp" alt="" />
             </div>
           </div>
           <div className='container-fluid contact-row-1 contact-row-1'>
@@ -112,7 +113,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='col-lg-6'>
-                <img className='img-fluid mt-3 p-3' src="./Image/Port-top2.png" alt="" />
+                <img className='img-fluid ' src="./Image/Our-Services.webp" alt="" />
               </div>
             </div>
           </div>
@@ -120,15 +121,15 @@ const Home = () => {
         <div className='container contact-row-1'>
           <div className='row mt-3 mb-2'>
             <div className='col-lg-6'>
-              <img className='img-fluid mt-3 p-3' src="./Image/Port-top2.png" alt="" />
+              <img className='img-fluid mt-3 p-3' src="./Image/design-&-development.webp" alt="" />
             </div>
             <div className='col-lg-6'>
-              <h1 className='text-center'>Design & Development
+              <h1 className='ms-2'>Design & Development
               </h1>
-              <div className=" pen01">
+              <div className=" pen01 ms-2">
                 <div className='ball'></div>
               </div>
-              <p>Klik Plus Design & Development
+              <p className='p-5'>Klik Plus Design & Development
                 A design can improve with the contribution of a developer, and code can be better written with the assistance of a designer. With the years of experience, we are able to deliver the perfect web design and development solutions to you.</p>
               <div className='row mt-3 mb-2'>
                 <div className='col-lg-6'>

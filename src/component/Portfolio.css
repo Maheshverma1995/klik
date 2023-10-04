@@ -32,7 +32,6 @@
     animation-iteration-count: infinite;
     animation: move 3500ms infinite  linear forwards;
 }
-
 @keyframes move {
     from {
         -webkit-transform: translateX(0);
@@ -135,21 +134,31 @@ transform-style: preserve-3d;transition: all 2s;}
 
 .team-content {
     background: linear-gradient(135deg,#3854a5 0%,#02b1f0 100%);
-    padding: 70px 0 20px;
-    margin-top: -60px;
     border-radius: 10px;
     transition: .1s ease-in-out;
-    margin-bottom: 30px
+    margin-top: -60px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    width: 300px;
 }
 
 .last-w{
     width: 200px;
     
 }
-
-.next{
-    box-sizing: border-box;
-
+.size{
+    width: 180px;
+    height: 180px;
+}
+.bg-2
+{
+    background: linear-gradient(135deg,#3854a5 0%,#02b1f0 100%);
 }
 
-
+.image-animated{
+    animation-name: scalePopup;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

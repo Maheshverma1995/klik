@@ -31,7 +31,7 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                        <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                       </div>
                       <div className="back">
                         <h3>Lorem ipsum adipisicing elit.</h3>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                        <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                       </div>
                       <div className="back">
                         <h3>Lorem ipsum adipisicing elit.</h3>
@@ -86,7 +86,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -105,7 +105,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -124,7 +124,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -143,7 +143,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -162,7 +162,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -181,7 +181,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/Rashmika.jpg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
                 <div className="back">
                   <h3>Lorem ipsum adipisicing elit.</h3>
@@ -202,7 +202,7 @@ const Portfolio = () => {
  <div className="outer">
         <div className="inner">
             <div className="front">
-            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
+            <img src="./image/icon-img.png" class="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
 </div>
             <div className="back">
                 <h3>Lorem ipsum adipisicing elit.</h3>
@@ -212,7 +212,7 @@ const Portfolio = () => {
     </div>
 <div className="card-body">
   <h5 className="card-title text-center">Card title</h5>
-  <Link to="#" className="btn btn-primary button">Details</Link>
+  <Link href="#" className="btn btn-primary button">Details</Link>
 </div>
 </div>
       </div>
@@ -231,7 +231,7 @@ const Portfolio = () => {
     </div>
 <div className="card-body">
   <h5 className="card-title text-center">Card title</h5>
-  <Link to="#" className="btn btn-primary button">Details</Link>
+  <Link href="#" className="btn btn-primary button">Details</Link>
 </div>
 </div>
       </div>
@@ -250,7 +250,7 @@ const Portfolio = () => {
     </div>
 <div className="card-body">
   <h5 className="card-title text-center">Card title</h5>
-  <Link to="#" className="btn btn-primary button">Details</Link>
+  <Link href="#" className="btn btn-primary button">Details</Link>
 </div>
 </div>
       </div>
@@ -269,7 +269,7 @@ const Portfolio = () => {
     </div>
 <div className="card-body">
   <h5 className="card-title text-center">Card title</h5>
-  <Link to="#" className="btn btn-primary button">Details</Link>
+  <Link href="#" className="btn btn-primary button">Details</Link>
 </div>
 </div>
       </div>
@@ -288,7 +288,7 @@ const Portfolio = () => {
     </div>
 <div className="card-body">
   <h5 className="card-title text-center">Card title</h5>
-  <Link to="///////////" className="btn btn-primary button">Details</Link>
+  <Link href="///////////" className="btn btn-primary button">Details</Link>
 </div>
 </div>
       </div>

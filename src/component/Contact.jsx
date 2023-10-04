@@ -7,10 +7,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Validation logic
-    // You can use regular expressions or other validation libraries here
-    // For simplicity, I'm using basic checks
     const name = e.target.name.value.trim();
     const email = e.target.email.value.trim();
     const phone = e.target.phone.value.trim();
@@ -40,15 +36,12 @@ const Contact = () => {
       setPhoneError(true);
       return;
     }
-
-    // If all validation passes, you can submit the form or perform other actions
     console.log('Form submitted with the following data:');
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Phone:', phone);
     console.log('Message:', message);
 
-    // Clear any error messages
     setNameError(false);
     setEmailError(false);
     setPhoneError(false);
