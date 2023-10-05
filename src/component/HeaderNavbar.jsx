@@ -30,10 +30,8 @@ const HeaderNavbar = () => {
   }, []);
 
   return (
-    <div>
-      <nav
-        className={`navbar navbar-expand-lg navbar-dark bg ${Top ? 'fixed-top' : ''}`}
-      >
+    <div style={{overflowX:'hidden'}}>
+      <nav className={`navbar navbar-expand-lg navbar-dark bg-2 ${Top ? 'fixed-top' : ''}`}>
         <div className="container">
           <Link className="navbar-brand" onClick={closeNav} to="/">
             <img style={{ width: '100px' }} className="img-fluid" src="./Image/logo.png" alt="" />
@@ -51,46 +49,46 @@ const HeaderNavbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className={`collapse navbar-collapse ${close ? '' : 'show'}`} id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${close ? '' : 'show'}` } id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white active" aria-current="page" onClick={closeNav} to="/">
+                <Link id='nav-link-a' className="nav-link  text-white active" aria-current="page" onClick={closeNav} to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/about">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/about">
                   About Us
                 </Link>
               </li>
               <li className="nav-item" id="service-link">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/services">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/services">
                   Services
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/portfolio">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/portfolio">
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/career">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/career">
                   Career
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/blog">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 text-white" onClick={closeNav} to="/contact">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/contact">
                   Contact Us
                 </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <button className="btn nav-link fs-5 text-white border p-2 bg-danger" type="submit">
+              <button className="btn nav-link  text-white border p-2 bg-danger" type="submit">
                 Get Free Quote
               </button>
             </form>

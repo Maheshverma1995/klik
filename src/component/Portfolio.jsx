@@ -1,5 +1,5 @@
 import React from 'react'
-import '../component/Portfolio.css'
+import './Portfolio.css'
 import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
@@ -31,23 +31,19 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
-                      </div>
-                      <div className="back">
-                        <h3>Lorem ipsum adipisicing elit.</h3>
-                        <h3>Lorem ipsum adipisicing elit.</h3>
+                        <img src="./Image/p01.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Powerpoint</h2>
+                <p>We work on Website and Mobile App.</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center ">Card title</h5>
+              <h5 className="card-title text-center ">Powerpoint</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -60,23 +56,20 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                        <img src="./image/p02.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                       </div>
-                      <div className="back">
-                        <h3>Lorem ipsum adipisicing elit.</h3>
-                        <h3>Lorem ipsum adipisicing elit.</h3>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>CRM Fixfella</h2>
+                <p>We work on Website &amp; Mobile App</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">CRM Fixfella</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -86,16 +79,16 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p03.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Listen &amp; Heard</h2>
+                <p>We work on Website &amp; Mobile App</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Listen & Heard</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -105,16 +98,16 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p04.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Mesee</h2>
+                  <p>We work on Website &amp; Mobile App</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Mesee</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -124,16 +117,16 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p05.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Johnbull</h2>
+                <p>Architect Engineer</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Johnbull</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -143,16 +136,17 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p06.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Challenger App</h2>
+                  <p>Architect &amp; Engineer</p>
+                
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Challenger App</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -162,16 +156,17 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p07.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Junk Removal</h2>
+                  <p>We work on Website &amp; Mobile App</p>
+                
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Junk Removal</h5>
               <Link to="#" className="btn btn-primary button">Details</Link>
             </div>
           </div>
@@ -181,117 +176,23 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./Image/1.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p08.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
                 </div>
-                <div className="back">
-                  <h3>Lorem ipsum adipisicing elit.</h3>
-                  <h3>Lorem ipsum adipisicing elit.</h3>
+                <div className="back bg-2">
+                <h2>Dash-Global</h2>
+                  <p>We work on Website &amp; Mobile App</p>
                 </div>
               </div>
             </div>
             <div className="card-body">
-              <h5 className="card-title text-center">Card title</h5>
+              <h5 className="card-title text-center">Dash-Global</h5>
               <Link to="///////////" className="btn btn-primary button">Details</Link>
             </div>
           </div>
         </div>
 
       </div>
-       <div className="col-sm-6 col-md-3 mb-3">
-        <div className="card" >
- <div className="outer">
-        <div className="inner">
-            <div className="front">
-            <img src="./image/icon-img.png" class="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
-</div>
-            <div className="back">
-                <h3>Lorem ipsum adipisicing elit.</h3>
-                <h3>Lorem ipsum adipisicing elit.</h3>
-        </div>
-        </div>
-    </div>
-<div className="card-body">
-  <h5 className="card-title text-center">Card title</h5>
-  <Link href="#" className="btn btn-primary button">Details</Link>
-</div>
-</div>
-      </div>
-       <div className="col-sm-6 col-md-3 mb-3">
-        <div className="card" >
- <div className="outer">
-        <div className="inner">
-            <div className="front">
-            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
-</div>
-            <div className="back">
-                <h3>Lorem ipsum adipisicing elit.</h3>
-                <h3>Lorem ipsum adipisicing elit.</h3>
-        </div>
-        </div>
-    </div>
-<div className="card-body">
-  <h5 className="card-title text-center">Card title</h5>
-  <Link href="#" className="btn btn-primary button">Details</Link>
-</div>
-</div>
-      </div>
-       <div className="col-sm-6 col-md-3 mb-3">
-        <div className="card" >
- <div className="outer">
-        <div className="inner">
-            <div className="front">
-            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
-</div>
-            <div className="back">
-                <h3>Lorem ipsum adipisicing elit.</h3>
-                <h3>Lorem ipsum adipisicing elit.</h3>
-        </div>
-        </div>
-    </div>
-<div className="card-body">
-  <h5 className="card-title text-center">Card title</h5>
-  <Link href="#" className="btn btn-primary button">Details</Link>
-</div>
-</div>
-      </div>
-       <div className="col-sm-6 col-md-3 mb-3">
-        <div className="card" >
- <div className="outer">
-        <div className="inner">
-            <div className="front">
-            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
-</div>
-            <div className="back">
-                <h3>Lorem ipsum adipisicing elit.</h3>
-                <h3>Lorem ipsum adipisicing elit.</h3>
-        </div>
-        </div>
-    </div>
-<div className="card-body">
-  <h5 className="card-title text-center">Card title</h5>
-  <Link href="#" className="btn btn-primary button">Details</Link>
-</div>
-</div>
-      </div>
-       <div className="col-sm-6 col-md-3 mb-3">
-        <div className="card" >
- <div className="outer">
-        <div className="inner">
-            <div className="front">
-            <img src="./image/icon-img.png" className="card-img-top p-2 image-fluid" style={{height:"150px"}} alt="Rashmika"/>
-</div>
-            <div className="back">
-                <h3>Lorem ipsum adipisicing elit.</h3>
-                <h3>Lorem ipsum adipisicing elit.</h3>
-        </div>
-        </div>
-    </div>
-<div className="card-body">
-  <h5 className="card-title text-center">Card title</h5>
-  <Link href="///////////" className="btn btn-primary button">Details</Link>
-</div>
-</div>
-      </div>
+    
      
     </div>
 

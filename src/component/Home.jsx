@@ -14,7 +14,7 @@ const Home = () => {
           <div className='row mt-3 mb-2'>
             <h1 className='text-center fs-3 mt-5 mb-5'>Klil Plus Technologies – Software, Web & Mobile app Development Company</h1>
             <div className='col-lg-6'>
-              <p className='p-2'>
+              <p className='pt-2'>
                 Klil Plus is global software service and website design company in Noida, India, focused on helping you make an impact on business and drive value through your IT investment.
 
                 Our expertise and commitment in delivering complex IT projects is the reason why we are a trusted service provider across the globe in the software product development and enterprise business segment. It’s a matter of great pride to us that many of these relationships have continued over decades. In India, we are one of the largest software systems integrators with an array of front-end technology deployment services to help client maximize the effectiveness and productivity of their investment in software.
@@ -69,14 +69,14 @@ const Home = () => {
           </div>
           <div className='row mt-3 mb-2'>
             <div className='col-lg-6'>
-              <img className='img-fluid mt-3 p-3' src="./Image/Port-top2.png" alt="" />
+              <img className='img-fluid mt-3 pt-2' src="./Image/Port-top2.png" alt="" />
             </div>
             <div className='col-lg-6'>
               <h1 className='text-center fs-5 mt-4 mb-4'>Engaging New Audiences Through Smart Approach</h1>
               <div className=" pen01">
                 <div className='ball '></div>
               </div>
-              <p className='mt-4 p-2'>We are a leading software development company in india that offers unique, efficient and affordable web-based systems & mobile apps which helps enterprises to automate their processes, increase productivity and facilitate workflow management. Klik Plus is dedicated for meeting Client’s expectations through our team of highly-skilled developers, creative project managers and top-notch technologies.</p>
+              <p className='mt-4 pt-2'>We are a leading software development company in india that offers unique, efficient and affordable web-based systems & mobile apps which helps enterprises to automate their processes, increase productivity and facilitate workflow management. Klik Plus is dedicated for meeting Client’s expectations through our team of highly-skilled developers, creative project managers and topt-2otch technologies.</p>
               <button type="button" className="btn btn-primary">Discover more</button>
             </div>
 
@@ -121,7 +121,7 @@ const Home = () => {
         <div className='container contact-row-1'>
           <div className='row mt-3 mb-2'>
             <div className='col-lg-6'>
-              <img className='img-fluid mt-3 p-3' src="./Image/design-&-development.webp" alt="" />
+              <img className='img-fluid mt-3 pt-2' src="./Image/design-&-development.webp" alt="" />
             </div>
             <div className='col-lg-6'>
               <h1 className='ms-2'>Design & Development
@@ -129,7 +129,7 @@ const Home = () => {
               <div className=" pen01 ms-2">
                 <div className='ball'></div>
               </div>
-              <p className='p-5'>Klik Plus Design & Development
+              <p className='pt-2'>Klik Plus Design & Development
                 A design can improve with the contribution of a developer, and code can be better written with the assistance of a designer. With the years of experience, we are able to deliver the perfect web design and development solutions to you.</p>
               <div className='row mt-3 mb-2'>
                 <div className='col-lg-6'>
@@ -174,15 +174,15 @@ const Home = () => {
         </div>
         <div className='container'>
           <div className='row mb-5'>
-            <h1 className='m-auto p-2 col-6'>We Always Try To Understand Users Expectation</h1>
+            <h1 className='fs-3'>We Always Try To Understand Users Expectation</h1>
 
             <p className='mt-4'>We help our clients to solve their hardest issues. We provide proficient ITES Development services according to your necessities in reasonable expen01se. Few facts which explore us most.</p>
           </div>
-          <div className='row m-auto border rounded mt-3 mb-2 bg-white p-3' style={{ maxWidth: '500px' }}>
+          <div className='row m-auto border rounded mt-3 mb-2 bg-white pt-2' style={{ maxWidth: '500px' }}>
             <div className='col-sm-6 mt-2 mb-3'><h6>Have any question about us?</h6>
               <p>Don't hesitate to contact us</p>
             </div>
-            <div className='col-sm-6 mt-4 mb-3 ps-5'> <button type="button" className="btn btn-primary">Contact US</button></div>
+            <div className='col-sm-6 mt-4 mb-3 '> <button type="button" className="btn btn-primary">Contact US</button></div>
           </div>
         </div>
         <div className='container-fluid bg-1'>
@@ -200,8 +200,6 @@ const Home = () => {
         </div>
         <div className='container contact-row-1'>
           <div className='row mt-3 mb-2'>
-            {/* <h3>Our Certifications & Accreditation</h3> */}
-
             <div className='col-12'>
 
             </div>

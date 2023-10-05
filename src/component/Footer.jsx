@@ -5,9 +5,9 @@ import Iframe from 'react-iframe';
 import ContrySlider from './ContrySlider';
 const Footer = () => {
    return (
-      <div>
+      <div className='container-fluid'>
          <div id='footer'>
-            <div className='container mt-2 p-3'>
+            <div className='container mt-2 '>
                <div className='row mb-5'>
                   <div className='col-12 '>
                      <h1 className='text-center text-white'>Newsletter</h1>
@@ -92,7 +92,9 @@ const Footer = () => {
                <div className='row'>
                   <h1 className='text-center text-white mt-3 mb-5'>Our Global Presence</h1>
                  
+                     <div className='col-12 mb-3'>
                      <ContrySlider/>
+                     </div>
                   
                </div>
             </div>

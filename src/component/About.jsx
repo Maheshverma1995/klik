@@ -40,27 +40,27 @@ const About = () => {
       {/* /////////////////////////////////3rd-row-End///////////////////////////////////////////////// */}
       <div className='container mt-5 mb-5'>
         <div className='row mt-5'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 mt-3'>
             <div className="card" style={{ height: '400px' }}>
-              <img src="./Image/visiion.webp" style={{ width: '200px' }} className="card-img-top p-4" alt="..." />
+              <img src="./Image/visiion.webp" style={{ width: '200px' }} className="card-img-top mt-3 p-5" alt="..." />
               <h5 className="card-header w-100 text-center bg-1 text-white fs-3">Our Vision</h5>
               <div className="card-body">
                 <p className="card-text fs-6 mb-5">Klik Plus is one of the protuberant software development companies that transform other businesses by innovatively connecting dots from design to development. It differentiates you from the market and provides healthier engagement with clienteles & partners.</p>
               </div>
             </div>
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 mt-3'>
             <div className="card" style={{ height: '400px' }}>
-              <img src="./Image/mission.webp" style={{ width: '200px' }} className="card-img-top p-4" alt="..." />
+              <img src="./Image/mission.webp" style={{ width: '200px' }} className="card-img-top mt-3 p-5" alt="..." />
               <h5 className="card-header w-100 text-center bg-1 text-white fs-3">Our Mission</h5>
               <div className="card-body">
                 <p className="card-text fs-6 mb-5 mt-4">Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
               </div>
             </div>
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 mt-3'>
             <div className="card" style={{ height: '400px' }}>
-              <img src="./Image/value-2.webp" style={{ width: '200px' }} className="card-img-top p-4" alt="..." />
+              <img src="./Image/value-2.webp" style={{ width: '200px' }} className="card-img-top mt-3 p-5" alt="..." />
               <h5 className="card-header w-100 text-center bg-1 text-white fs-3">Our Value</h5>
               <div className="card-body">
                 <p className="card-text fs-6 mb-5">Great builds come from organized teams that are responsible for themselves. We Focus on the client requirements and all else will follow. It’s best to do one thing really, really well. Integrity, Boldness and Honesty are our three pillars.</p>

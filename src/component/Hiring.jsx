@@ -28,8 +28,6 @@ const Hiring = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Perform basic validation
     let valid = true;
     const newErrors = { ...formErrors };
 
@@ -88,7 +86,7 @@ const Hiring = () => {
   return (
     <div>
       <form className="main-form text-center" onSubmit={handleSubmit}>
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <input id='input'
             autoComplete="off"
             type="text"
@@ -101,7 +99,7 @@ const Hiring = () => {
           {formErrors.nameError && <div className="error-message">{formErrors.nameError}</div>}
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <input id='input'
             autoComplete="off"
             type="email"
@@ -114,7 +112,7 @@ const Hiring = () => {
           {formErrors.emailError && <div className="error-message">{formErrors.emailError}</div>}
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <input id='input'
             autoComplete="off"
             type="text"
@@ -127,7 +125,7 @@ const Hiring = () => {
           {formErrors.phoneError && <div className="error-message">{formErrors.phoneError}</div>}
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <input id='input'
             autoComplete="off"
             type="text"
@@ -140,7 +138,7 @@ const Hiring = () => {
           {formErrors.postError && <div className="error-message">{formErrors.postError}</div>}
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <input id='input'
             autoComplete="off"
             type="text"
@@ -153,7 +151,7 @@ const Hiring = () => {
           {formErrors.experienceError && <div className="error-message">{formErrors.experienceError}</div>}
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <label>Attachment</label>
           <input id='input'
             type="file"
@@ -163,7 +161,7 @@ const Hiring = () => {
           />
         </div>
 
-        <div className="form-group mt-3">
+        <div className="form-group mt-3 d-flex justify-content-center">
           <textarea
             id="msg"
             rows="5"

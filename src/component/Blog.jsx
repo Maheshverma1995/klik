@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 const Blog = () => {
   return (
     <div className='container-fluid'>
+      <div className='row'>
+        <div className='col-12'>
+          <img src="./Image/3d-randring.webp" alt="" />
+        </div>
+      </div>
       <div className="row d-flex justify-content-center">
         <div className="col-12 text-center fs-1 bold fw-bold text-decoration-underline">
           Blogs
@@ -13,96 +18,91 @@ const Blog = () => {
       </div>
       {/* ///////////////////////////////////////////////////////////////////////////// */}
       <div className="row mt-5 d-flex justify-content-start" id='frame' >
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4 mt-2 mb-3" style={{ height: '450px' }}>
           <div className="card"  >
-            <img src="./image/Rashmika.jpg" className=" height card-img-top img-fluid" alt="..." />
-            <div>UNCATEGORIZED</div>
-
-            <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+            <img src="./Image/web-2.jpg" className='mt-4 mb-4 img-fluid' style={{ width: '150px' }} alt="..." />
+            <div className="card-body mt-4">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3 ">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#" >Read more</Link>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4 mt-2 mb-3" style={{ height: '450px' }}>
           <div className="card" >
-            <img src="./image/Rashmika.jpg" class="height img-fluid card-img-top" alt="..." />
-            <div>UNCATEGORIZED</div>
-
-            <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+            <img src="./Image/portoflio-151.jpg" className='mt-4 mb-4 img-fluid' style={{ width: '150px' }} alt="..." />
+            <div className="card-body mt-4">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3 ">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#"  >Read more</Link>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4 mt-2 mb-3" style={{ height: '450px' }}>
           <div className="card" >
-            <img src="./image/Rashmika.jpg" class=" height img-fluid card-img-top" alt="..." />
-            <div>UNCATEGORIZED</div>
+            <img src="./Image/3 (1).webp" className='p-3 img-fluid' style={{ width: '150px' }} alt="..." />
             <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#" >Read more</Link>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4 mt-2 mb-3" style={{ height: '450px' }}>
           <div className="card"  >
-            <img src="./image/Rashmika.jpg" className=" height card-img-top img-fluid" alt="..." />
-            <div>UNCATEGORIZED</div>
-
-            <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+            <img src="./Image/4 (1).webp" className='mt-4 mb-4 img-fluid' style={{ width: '150px' }} alt="..." />
+            <div className="card-body mt-4">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3 ">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#" class="btn btn-primary mt-4 ">Read more</Link>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4  mb-3" style={{ height: '450px' }}>
           <div className="card" >
-            <img src="./image/Rashmika.jpg" class="height img-fluid card-img-top" alt="..." />
-            <div>UNCATEGORIZED</div>
-
+            <img src="./Image/05.webp" className='mb-3 img-fluid' style={{ width: '150px' }} alt="..." />
             <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3 ">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#" class="btn btn-primary mt-4 ">Read more</Link>
 
               </div>
             </div>
           </div>
         </div>
 
-        <div className="col-sm-6 col-md-4 mb-3">
+        <div className="col-lg-4 mt-2 mb-3" style={{ height: '450px' }}>
           <div className="card" >
-            <img src="./image/Rashmika.jpg" class=" height img-fluid card-img-top" alt="..." />
-            <div>UNCATEGORIZED</div>
-            <div className="card-body">
-              <h5 className="card-title text-center  py-2 ">Card title</h5>
-              <p className=' text-align  '>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
-              <Link className='text-decoration-none' href=""><FaUserAlt />AdminKlikPlus@gmail.com</Link>
+            <img src="./Image/6.webp" className='mt-4 mb-4 img-fluid' style={{ width: '150px' }} alt="..." />            <div className="card-body mt-4">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className=' text-align fs-6'>Our mission is to augment business growth of our clients with creative design & Development to deliver their idea with high quality solutions which transform data into knowledge across the globe.</p>
+              <div><Link className='text-decoration-none' href=""><div className='d-flex'>
+                <h4 className='fs-5 ms-3'><FaUserAlt /></h4><h4 className='fs-5 ms-3'>AdminKlikPlus@gmail.com</h4></div></Link></div>
               <div>
-                <Link className='text-decoration-none' href="#" class="btn btn-primary mt-3">Read more</Link>
+                <Link className='text-decoration-none btn btn-primary mt-4' href="#" >Read more</Link>
               </div>
             </div>
           </div>
