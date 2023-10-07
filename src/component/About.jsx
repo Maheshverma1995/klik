@@ -8,11 +8,8 @@ import Coustumer from './Coustumer'
 const About = () => {
   return (
     <div>
+      <img src="./Image/about-us-baner.webp" className="img-fluid" alt="top-img" />
       <div className="container-fluid">
-        <div className="row">
-          <img src="./Image/about-us-baner.webp" className="img-fluid" alt="top-img" />
-        </div>
-        {/* //////////////////////////////////////////////top-row end//////////////////////////////////////// */}
         <div className="row">
           <div className="d-flex upper-strip justify-content-Start">
             <Link className='border mx-1 px-2 text-decoration-none fs-4' href="">Home</Link>

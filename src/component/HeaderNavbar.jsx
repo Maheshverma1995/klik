@@ -16,7 +16,7 @@ const HeaderNavbar = () => {
   useEffect(() => {
     // Function to handle scroll event
     const scroll = () => {
-      if (window.scrollY ===0) {
+      if (window.scrollY === 0) {
         setTop(false);
       } else {
         setTop(true);
@@ -29,11 +29,19 @@ const HeaderNavbar = () => {
     };
   }, []);
 
+  // Function to scroll to the top when a link is clicked
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // You can change this to 'auto' for an instant scroll
+    });
+  };
+
   return (
-    <div style={{overflowX:'hidden'}}>
+    <div style={{ overflowX: 'hidden' }}>
       <nav className={`navbar navbar-expand-lg navbar-dark bg-2 ${Top ? 'fixed-top' : ''}`}>
         <div className="container">
-          <Link className="navbar-brand" onClick={closeNav} to="/">
+          <Link className="navbar-brand" onClick={() => { closeNav(); scrollToTop(); }} to="/">
             <img style={{ width: '100px' }} className="img-fluid" src="./Image/logo.png" alt="" />
           </Link>
           <button
@@ -49,47 +57,47 @@ const HeaderNavbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className={`collapse navbar-collapse ${close ? '' : 'show'}` } id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${close ? '' : 'show'}`} id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white active" aria-current="page" onClick={closeNav} to="/">
+                <Link id="nav-link-a" className="nav-link text-white active" aria-current="page" onClick={() => { closeNav(); scrollToTop(); }} to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/about">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/about">
                   About Us
                 </Link>
               </li>
               <li className="nav-item" id="service-link">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/services">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/services">
                   Services
                 </Link>
               </li>
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/portfolio">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/portfolio">
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/career">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/career">
                   Career
                 </Link>
               </li>
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/blog">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/blog">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link id='nav-link-a' className="nav-link  text-white" onClick={closeNav} to="/contact">
+                <Link id='nav-link-a' className="nav-link  text-white" onClick={() => { closeNav(); scrollToTop(); }} to="/contact">
                   Contact Us
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <button className="btn nav-link  text-white border p-2 bg-danger" type="submit">
-                Get Free Quote
+            <form className="d-flex">
+              <button  className="btn nav-link text-white border p-2 bg-danger" type="submit">
+               <Link className='text-white text-decoration-none' to='/getFreeQuta'> Get Free Quote</Link>
               </button>
             </form>
           </div>

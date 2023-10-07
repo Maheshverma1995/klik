@@ -14,6 +14,7 @@ import Erroe from './component/Erroe';
 import Footer from './component/Footer';
 import Services from './component/Services';
 import Whatapp from './component/Whatapp';
+import GetFreeQuta from './component/GetFreeQuta';
 
 
 
@@ -26,15 +27,17 @@ function App() {
       <HeaderNavbar />
       <Whatapp/>
       <Routes>
-        <Route path="" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
 
-        <Route path='about' element={<About />} />
-        <Route path='services' element={<Services />} />
-        <Route path='portfolio' element={<Portfolio />} />
-        <Route path='career' element={<Career />} />
-        <Route path='blog' element={<Blog />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='*' element={<Erroe />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/career' element={<Career />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/*' element={<Erroe />} />
+        <Route path='/getFreeQuta' element={<GetFreeQuta/>} />
+
       </Routes>
       <Footer />
     </BrowserRouter>
