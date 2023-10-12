@@ -33,22 +33,22 @@ const Footer = () => {
                         <div className='col-sm-4'>
                            <ul><h5 className='text-white mt-3'>Quick links</h5>
                               <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>Home</Link>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='/'>Home</Link>
                               </li>
                               <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>About Us</Link>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='about'>About Us</Link>
+                              </li> 
+                              <li className='footer-li'>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='services'>Services</Link>
                               </li>
                               <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>Services</Link>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='portfolio'>Portfolio</Link>
                               </li>
                               <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>Portfolio</Link>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='career'>Career</Link>
                               </li>
                               <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>Career</Link>
-                              </li>
-                              <li className='footer-li'>
-                                 <span><FaGreaterThan /></span> <Link className='footer-a' to=''>Contact us</Link>
+                                 <span><FaGreaterThan /></span> <Link className='footer-a' to='contact'>Contact us</Link>
                               </li>
                            </ul>
                         </div>

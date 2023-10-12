@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const HeaderNavbar = () => {
   const [Top, setTop] = useState(false);
   const [close, setclose] = useState(true);
+  const [show, setShow] = useState(true);
 
   const toolgal = () => {
     setclose(!close);
@@ -95,11 +96,15 @@ const HeaderNavbar = () => {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex">
-              <button  className="btn nav-link text-white border p-2 bg-danger" type="submit">
-               <Link className='text-white text-decoration-none' to='/getFreeQuta'> Get Free Quote</Link>
-              </button>
-            </form>
+            {show && (
+              <form className="d-flex">
+                <Link className='text-white text-decoration-none' to='/getFreeQuta'>
+                  <button onClick={() => setShow(true)} className="btn nav-link text-white border p-2 bg-danger" type="submit">
+                    Get Free Quote
+                  </button>
+                </Link>
+              </form>
+            )}
           </div>
         </div>
       </nav>

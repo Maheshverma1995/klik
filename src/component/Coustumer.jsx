@@ -15,17 +15,17 @@ const Customer = () => {
     {
       name: "Ankit Gupta",
       text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      img: './Image/3.webp'
+      
     },
     {
         name: "Ankit Gupta",
         text: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        img: './Image/2.webp'
+        
       },    
     {
       name: "Lincoln Birch",
       text: "Great client to work with, I'd love to work with her again, This job was done fast and for a great price. Excellent work. Thanks!",
-     img: './Image/4.webp'
+     
     },
   ];
 
