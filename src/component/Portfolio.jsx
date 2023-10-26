@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className="container-fluid ">
       <div className="row">
-        <img src="./image/Port-top.png" className="img-fluid" alt="top-img" />
+        <img src="./Image/Port-top.png" className="img-fluid" alt="top-img" />
       </div>
       <div className="row ">
     <div class="d-flex upper-strip justify-content-Start">
@@ -56,7 +56,7 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./image/p02.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                        <img src="./Image/p02.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                       </div>
                      
                     </div>
@@ -79,7 +79,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p03.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p03.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Listen &amp; Heard</h2>
@@ -98,7 +98,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p04.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p04.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Mesee</h2>
@@ -117,7 +117,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p05.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p05.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Johnbull</h2>
@@ -136,7 +136,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p06.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p06.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Challenger App</h2>
@@ -156,7 +156,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p07.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p07.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Junk Removal</h2>
@@ -176,7 +176,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p08.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
+                  <img src="./Image/p08.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Dash-Global</h2>
