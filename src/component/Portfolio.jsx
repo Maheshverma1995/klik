@@ -31,7 +31,7 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./Image/p01.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                        <img src="./Image/p01.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                       </div>
                     </div>
                   </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
                   <div className="outer">
                     <div className="inner">
                       <div className="front">
-                        <img src="./image/p02.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                        <img src="./image/p02.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                       </div>
                      
                     </div>
@@ -79,7 +79,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p03.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p03.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Listen &amp; Heard</h2>
@@ -98,7 +98,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p04.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p04.webp" class="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Mesee</h2>
@@ -117,7 +117,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p05.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p05.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Johnbull</h2>
@@ -136,7 +136,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p06.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p06.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Challenger App</h2>
@@ -156,7 +156,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p07.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p07.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Junk Removal</h2>
@@ -176,7 +176,7 @@ const Portfolio = () => {
             <div className="outer">
               <div className="inner">
                 <div className="front">
-                  <img src="./image/p08.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+                  <img src="./image/p08.webp" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
                 </div>
                 <div className="back bg-2">
                 <h2>Dash-Global</h2>

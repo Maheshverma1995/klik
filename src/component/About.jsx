@@ -100,7 +100,7 @@ const About = () => {
       <div className="row d-flex justify-content-center" id='frame' >
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/Media-Streaming.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/Media-Streaming.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">Media Streaming</h5>
             </div>
@@ -108,7 +108,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/Digital-Content-Distribution.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/Digital-Content-Distribution.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <dDigital Content Distributionme="card-body">
               <h5 className="card-title text-center ">Digital Content Distribution</h5>
             </dDigital>
@@ -116,7 +116,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/mCommerce.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/mCommerce.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">mCommerce</h5>
             </div>
@@ -124,7 +124,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/Mobile-Healthcare-1.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/Mobile-Healthcare-1.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">Mobile Healthcare</h5>
             </div>
@@ -132,7 +132,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/Workflow.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/Workflow.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">Workflow & Asset Management</h5>
             </div>
@@ -140,7 +140,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/game.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/game.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">Mobile Games</h5>
             </div>
@@ -149,7 +149,7 @@ const About = () => {
 
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card border-0" >
-            <img src="./Image/Fleet-Management.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt="Rashmika" />
+            <img src="./Image/Fleet-Management.svg" className="card-img-top p-2 image-fluid" style={{ height: "150px" }} alt=" " />
             <div className="card-body">
               <h5 className="card-title text-center ">Fleet-Management</h5>
             </div>
@@ -164,42 +164,42 @@ const About = () => {
       <div className="row d-flex justify-content-center" >
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0 " >
-            <img src="./Image/about-2st.webp" className="img-responsive card-img-top p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/about-2st.webp" className="img-responsive card-img-top p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/b.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/b.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/trsm.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/trsm.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/f.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/f.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/c.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/c.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/g.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/g.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/7.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/7.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
         <div className="col-sm-6 col-md-3 mb-3">
           <div className="card border-0" >
-            <img src="./Image/8.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt="Rashmika" />
+            <img src="./Image/8.webp" className="card-img-top img-responsive p-2 image-fluid" style={{ height: "400px" }} alt=" " />
           </div>
         </div>
       </div>
